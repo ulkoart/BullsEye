@@ -14,19 +14,28 @@ class ViewController: UIViewController {
     var targetValue: Int = 0
     
     @IBOutlet weak var slider: UISlider!
+    @IBOutlet weak var targetLabel: UILabel!
 
     override func viewDidLoad() {
         super.viewDidLoad()
         let roundedValue = slider.value.rounded()
         currentValue = Int(roundedValue)
+        
         self.startNewRound()
 //        or startNewRound() without self
     }
     
     @IBAction func showHitMeAlert(){
         
+        var difference = currentValue - targetValue
+        
+        if difference < 0 {
+            difference = difference * -1
+        }
+        
         let message = "The value of the slider is now: \(currentValue)" +
-        "\n The target value is: \(targetValue)"
+        "\n The target value is: \(targetValue)" +
+        "\n The difference is: \(difference)"
         
         let alert = UIAlertController(title: "Hello, World", message: message, preferredStyle: .alert)
         
@@ -45,10 +54,15 @@ class ViewController: UIViewController {
         currentValue = Int(roundedValue)
     }
     
-    func startNewRound(){
+    func startNewRound() {
         targetValue = Int.random(in: 1...100)
         currentValue = 50
         slider.value = Float(currentValue)
+        updateLabels()
+    }
+    
+    func updateLabels() {
+        targetLabel.text = String(targetValue)
     }
 }
 
