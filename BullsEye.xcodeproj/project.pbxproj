@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE0C07E52334099000D9A172 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0C07E42334099000D9A172 /* AboutViewController.swift */; };
 		CEB3F18323338FBD00F4768C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB3F18223338FBD00F4768C /* AppDelegate.swift */; };
 		CEB3F18523338FBD00F4768C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB3F18423338FBD00F4768C /* ViewController.swift */; };
 		CEB3F18823338FBD00F4768C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEB3F18623338FBD00F4768C /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE0C07E42334099000D9A172 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 		CEB3F17F23338FBD00F4768C /* BullsEye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BullsEye.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEB3F18223338FBD00F4768C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEB3F18423338FBD00F4768C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -57,6 +59,7 @@
 				CEB3F18223338FBD00F4768C /* AppDelegate.swift */,
 				CEB3F18423338FBD00F4768C /* ViewController.swift */,
 				CEB3F18623338FBD00F4768C /* Main.storyboard */,
+				CE0C07E42334099000D9A172 /* AboutViewController.swift */,
 				CEB3F18923338FBE00F4768C /* Assets.xcassets */,
 				CEB3F18B23338FBE00F4768C /* LaunchScreen.storyboard */,
 				CEB3F18E23338FBE00F4768C /* Info.plist */,
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE0C07E52334099000D9A172 /* AboutViewController.swift in Sources */,
 				CEB3F18523338FBD00F4768C /* ViewController.swift in Sources */,
 				CEB3F18323338FBD00F4768C /* AppDelegate.swift in Sources */,
 			);
@@ -285,6 +289,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2PQNZ2TUC3;
 				INFOPLIST_FILE = BullsEye/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,6 +308,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2PQNZ2TUC3;
 				INFOPLIST_FILE = BullsEye/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
