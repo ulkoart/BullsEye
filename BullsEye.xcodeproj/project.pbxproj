@@ -13,6 +13,7 @@
 		CEB3F18823338FBD00F4768C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEB3F18623338FBD00F4768C /* Main.storyboard */; };
 		CEB3F18A23338FBE00F4768C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEB3F18923338FBE00F4768C /* Assets.xcassets */; };
 		CEB3F18D23338FBE00F4768C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEB3F18B23338FBE00F4768C /* LaunchScreen.storyboard */; };
+		CED3A3B32335EBF9004B5A8F /* AboutAuthorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED3A3B22335EBF9004B5A8F /* AboutAuthorViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		CEB3F18923338FBE00F4768C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEB3F18C23338FBE00F4768C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CEB3F18E23338FBE00F4768C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CED3A3B22335EBF9004B5A8F /* AboutAuthorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutAuthorViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				CEB3F18223338FBD00F4768C /* AppDelegate.swift */,
 				CEB3F18423338FBD00F4768C /* ViewController.swift */,
 				CEB3F18623338FBD00F4768C /* Main.storyboard */,
+				CED3A3B22335EBF9004B5A8F /* AboutAuthorViewController.swift */,
 				CE0C07E42334099000D9A172 /* AboutViewController.swift */,
 				CEB3F18923338FBE00F4768C /* Assets.xcassets */,
 				CEB3F18B23338FBE00F4768C /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 				CE0C07E52334099000D9A172 /* AboutViewController.swift in Sources */,
 				CEB3F18523338FBD00F4768C /* ViewController.swift in Sources */,
 				CEB3F18323338FBD00F4768C /* AppDelegate.swift in Sources */,
+				CED3A3B32335EBF9004B5A8F /* AboutAuthorViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
